@@ -2,7 +2,9 @@
 [Technical Test DevOps ] SMARTM2M Indonesia - Zena Firdaus
 
 I worked on this using Virtual Box with 3 VMs, specifications as follows:
+
 Loadbalancer node 1CPU 2GB RAM 50GB HDD with ip 192.168.1.100
+
 2 Backend nodes 1CPU 2GB RAM 50GB HDD with ip 192.168.1.101-102
 
 for master Ansible I use WSL Ubuntu on my local computer.
