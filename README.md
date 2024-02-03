@@ -14,6 +14,7 @@ backend group if we hit IP hostname
 ![image](https://github.com/mzenafirdaus/smartm2m-zena/assets/85167578/45881356-8b1a-4bad-b90f-9b052efb835e)
 
 for my Kubernetes cluster I use microk8s installed on node-master and node-worker
+
 ![image](https://github.com/mzenafirdaus/smartm2m-zena/assets/85167578/3322c23f-1bb2-40b2-91ea-3570d2dfc413)
 
 After initializing the master, do the microk8s add-node command, then a token will appear for the worker node
