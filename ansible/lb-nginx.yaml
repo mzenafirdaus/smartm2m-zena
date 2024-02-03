@@ -1,0 +1,12 @@
+- name: Configure Nginx load balancer
+  hosts: loadbalancer
+  become: yes
+  tasks:
+  - name: Install Nginx upstream module
+    apt: name=nginx-extras state=present
+  - name: Configure Nginx load balancer
+    template:
+      src: nginx.conf.j2
+      dest: /etc/nginx/nginx.conf
+  - name: Reload Nginx service
+    service: name=nginx state=reloaded
