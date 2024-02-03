@@ -1,0 +1,10 @@
+- name: Change Nginx index backend server
+  hosts: backend
+  become: yes
+  tasks:
+  - name: Create custom index.html file
+    template:
+      src: index.html.j2
+      dest: /var/www/html/index.html
+  - name: Reload Nginx service
+    service: name=nginx state=reloaded
