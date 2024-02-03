@@ -1,6 +1,0 @@
-[loadbalancer]
-192.168.1.100 ansible_hostname=node1 ansible_ssh_user=root
-
-[backend]
-192.168.1.101 ansible_hostname=node2 ansible_ssh_user=root
-192.168.1.102 ansible_hostname=node3 ansible_ssh_user=root
